@@ -8,6 +8,7 @@ class Home extends React.Component {
       <div>
         <AppBarExampleIcon />
         <CardExampleWithAvatar />
+        <CardExampleWithAvatar />
       </div>
     );
   }

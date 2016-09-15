@@ -1,5 +1,8 @@
 # Nasibox
 
+## Description
+An app in ReactJS with Material-UI for an indonesian food delivery service.
+
 ## Installation
 
 ```bash

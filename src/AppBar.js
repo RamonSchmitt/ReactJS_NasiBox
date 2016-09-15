@@ -6,7 +6,9 @@ const AppBarExampleIcon = () => (
     title="NasiBox"
     iconClassNameRight="muidocs-icon-navigation-expand-more"
     style={{
-      backgroundColor: '#E00'
+      backgroundColor: '#E00',
+      position: 'fixed',
+      top: '0'
     }}
   />
 );
