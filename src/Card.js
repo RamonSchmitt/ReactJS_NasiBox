@@ -4,19 +4,15 @@ import FlatButton from 'material-ui/FlatButton';
 
 const CardExampleWithAvatar = () => (
   <Card>
-    <CardHeader
-      title="Nasi Goreng"
-      subtitle="Chicken, Shrimp or Vegetarian"
-      avatar="./src/images/nasi_goreng.jpg"
-    />
-    <CardMedia
-      overlay={<CardTitle title="Nasi Goreng" subtitle="Chicken, Shrimp or Vegetarian" />}
-    >
+    <CardMedia>
       <img src="./src/images/nasi_goreng.jpg" />
     </CardMedia>
-    <CardTitle title="Ingredients" />
+    <CardTitle title="nasi" />
     <CardText>
-      vegetables and spices, usually seasoned with sweet soy sauce
+      <h3>
+        Ingredients
+      </h3>
+        vegetables and spices, usually seasoned with sweet soy sauce
     </CardText>
     <CardActions>
       <FlatButton
